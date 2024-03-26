@@ -1,0 +1,16 @@
+
+.textArea {
+    color:white;
+    height: 60px;
+    width: 275px;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.invisArea {
+    display: none;
+}
