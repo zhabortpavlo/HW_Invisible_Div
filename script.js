@@ -1,12 +1,12 @@
-let onMouseArea = document.querySelector('.textArea');
-let invisArea = document.querySelector('.invisArea');
+let onMouseArea = document.querySelector(".textArea");
+let invisArea = document.querySelector(".invisArea");
 
-onMouseArea.addEventListener('mouseover' , function() {
-   invisArea.style.display = 'block' ;
-   onMouseArea.innerHTML = 'NOW MOVE MOUSE AWAY';
-})
+onMouseArea.addEventListener("focus", function () {
+  invisArea.style.display = "block";
+  onMouseArea.innerHTML = "NOW MOVE MOUSE AWAY";
+});
 
-onMouseArea.addEventListener('mouseout' , function() {
-    invisArea.style.display = 'none';
-    onMouseArea.innerHTML = 'PUT MOUSE ON ME'
-})
+onMouseArea.addEventListener("blur", function () {
+  invisArea.style.display = "none";
+  onMouseArea.innerHTML = "PUT MOUSE ON ME";
+});
